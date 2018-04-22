@@ -5,7 +5,7 @@ public class BMI {
 
 		double weight;
 		double height;
-		double BMI;
+		double bmi;
 		
 		Scanner input = new Scanner(System.in);
 		
@@ -16,34 +16,34 @@ public class BMI {
 		height = input.nextDouble();
 		
         //BMI caluculation
-		BMI = weight / (height * height);
+		bmi = weight / (height * height);
 
         //display output
-		System.out.format("Your Body Mass Index is: %.2f\nand means ", BMI);
+		System.out.format("Your Body Mass Index is: %.2f\nand means ", bmi);
 		
         //interpret BMI
-		if (BMI<16.0) {
+		if (bmi<16.0) {
 			System.out.println("VERY SEVERELY UNDERWEIGHT");
 		}	
-			else if (16.0<=BMI && BMI<17.0) {
+			else if (16.0<=bmi && bmi<17.0) {
 				System.out.println("SEVERELY UNDERWEIGHT");
 			}
-			else if (17.0<=BMI && BMI<18.5) {
+			else if (17.0<=bmi && bmi<18.5) {
 				System.out.println("UNDERWEIGHT");
 			}
-			else if (18.5<=BMI && BMI<25.0) {
+			else if (18.5<=bmi && bmi<25.0) {
 				System.out.println("NORMAL - HEALTHY WEIGHT");
 			}
-			else if (25.0<=BMI && BMI<30.0) {
+			else if (25.0<=bmi && bmi<30.0) {
 				System.out.println("OVERWEIGHT");
 			}
-			else if (30.0<=BMI && BMI<35.0) {
+			else if (30.0<=bmi && bmi<35.0) {
 				System.out.println("OBESE CLASS I (MODERATELY OBESE)");
 			}
-			else if (35.0<=BMI && BMI<40.0) {
+			else if (35.0<=bmi && bmi<40.0) {
 				System.out.println("OBESE CLASS II (SEVERELY OBESE)");
 			}
-			else if (40.0<=BMI) {
+			else if (40.0<=bmi) {
 				System.out.println("OBESE CLASS III (VERY SEVERELY OBESE)");
 			}
 		
