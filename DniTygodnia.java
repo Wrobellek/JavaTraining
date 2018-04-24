@@ -3,6 +3,11 @@ Utwórz podprogramy, które zwracają pełną nazwę dnia tygodnia na podstawie 
 do podprogramu skrótu nazwy (pn,wt,sr,cz,pt,sb,nd) lub numeru dnia tygodnia (1 do 7). 
 Wykorzystaj mechanizm przeciążania. 
 Wyświetl pełną nazwę dnia tygodnia dla pt oraz 4.
+
+Create two subroutines that return the full name of the day of the week based on the
+abbreviation of the name of the day of the week passed to the subroutine (pn, wt, sr, cz, pt, sb,
+nd) or the number of the day of the week passed to the subroutine (1 to 7). Use the overload
+mechanism. Display the full name of the weekday for “pt” and 4
 */
 
 public class DniTygodnia {
